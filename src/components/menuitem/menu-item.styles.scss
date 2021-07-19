@@ -8,8 +8,7 @@
   justify-content: center;
   border: 1px solid black;
   margin: 0 7.5px 15px;
-  background-position: center;
-  background-size: cover;
+   overflow: hidden;
 
 &.large {
   height: 380px;
@@ -21,7 +20,12 @@
   &:last-child {
     margin-left: 7.5px;
   }
-
+.background-image{
+  width: 100%;
+  height: 100%;
+ background-position: center;
+background-size: cover;
+}
   .content {
     height: 90px;
     padding: 0 25px;
@@ -31,13 +35,15 @@
     justify-content: center;
     border: 1px solid black;
     background-color: white;
-    opacity: .57;
+    opacity: .7;
+    position: absolute;
 
     .title {
       font-weight: bold;
       margin-bottom: 6px;
       font-size: 22px;
       color: #4a4a4a;
+      text-transform: uppercase;
     }
 
     .subtitle {
