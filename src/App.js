@@ -1,8 +1,8 @@
-import React from 'react';
-import HomePage from './pages/homepage/Homepage.component';
-import Shop from "./pages/shop/shop.component";
-import { Switch, Route } from 'react-router-dom';
-import './App.css';
+import React from "react";
+import HomePage from "./pages/homepage/Homepage.component";
+import Shop from "./pages/shop/shop.component.jsx";
+import { Switch, Route } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
