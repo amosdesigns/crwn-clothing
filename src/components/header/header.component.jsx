@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./header.styles.scss";
 import { ReactComponent as Logo } from "../../crown.svg";
+
 const Header = () => (
   <header className="header">
     <Link className="logo-container" to="/">
