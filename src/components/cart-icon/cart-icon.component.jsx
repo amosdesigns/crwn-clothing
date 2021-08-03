@@ -10,7 +10,9 @@ const CartIcon = ({toogleCartHidden}) => (
     <span className="item-count">0</span>
   </div>
 );
+
 const mapDispatchToProps = (dispatch) => ({
   toogleCartHidden: () => dispatch(toggleCartHidden()),
 });
+
 export default connect(null, mapDispatchToProps)(CartIcon);
