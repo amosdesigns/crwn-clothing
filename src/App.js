@@ -7,7 +7,7 @@ import Header from "./components/header/header.component.jsx";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
-import { setCurrentUser } from "./redux/user/user.actions";
+import  setCurrentUser from "./redux/user/user.actions";
 import "./App.scss";
 
 class App extends React.Component {
