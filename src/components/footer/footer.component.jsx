@@ -13,16 +13,16 @@ function Footer() {
       <small>&copy;1986-{year} Crown Clothing</small>
       <div className="Social">
         <div className="socialIcon">
-          <i class="fab fa-pinterest-square"></i>
+          <i className="fab fa-pinterest-square"></i>
         </div>
         <div className="socialIcon">
-          <i class="fab fa-twitter-square"></i>
+          <i className="fab fa-twitter-square"></i>
         </div>
         <div className="socialIcon">
-          <i class="fab fa-youtube-square"></i>
+          <i className="fab fa-youtube-square"></i>
         </div>
         <div className="socialIcon">
-          <i class="fab fa-facebook-square"></i>
+          <i className="fab fa-facebook-square"></i>
         </div>
       </div>
     </footer>
