@@ -4,6 +4,7 @@ import Shop from "./pages/shop/shop.component.jsx";
 import Contact from "./pages/contact/contact.component.jsx";
 import SignInAndSignUp from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx";
 import Header from "./components/header/header.component.jsx";
+import Footer from "./components/footer/footer.component.jsx";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
@@ -50,6 +51,7 @@ class App extends React.Component {
             }
           />
         </Switch>
+        <Footer />
       </main>
     );
   }

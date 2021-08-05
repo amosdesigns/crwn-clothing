@@ -1,0 +1,31 @@
+footer{
+  color: #999999;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-size: 13px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+
+  .note{
+    font-size: 10px;
+     line-height: 2.5;
+    }
+
+  small{
+    font-size: 10px; 
+    line-height: 2.5;
+  }
+
+  .Social {
+    display: grid;
+    grid-template-columns: repeat(4, 20px);
+    justify-content: space-around;
+    gap: 10px;
+    .socialIcon{
+    font-size: 30px; 
+    line-height:1;
+    }
+  }
+}
