@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { auth } from "../../firebase/firebase.utils";
 import { ReactComponent as Logo } from "../../assets/crown.svg";
@@ -14,13 +14,13 @@ const Header = ({ currentUser, hidden }) => (
       <Logo className="logo" />
     </Link>
     <nav className="options">
-      <Link className="option" to="/shop">
+      <NavLink className="option" to="/shop">
         Shop
-      </Link>
-      <Link className="option" to="/contact">
+      </NavLink>
+      <NavLink className="option" to="/contact">
         Contact
-      </Link>
-      { currentUser ? (
+      </NavLink>
+      {currentUser ? (
         <div className="option" onClick={() => auth.signOut()}>
           SIGN OUT
         </div>
@@ -28,16 +28,16 @@ const Header = ({ currentUser, hidden }) => (
         <Link className="option" to="/signin">
           SIGN IN
         </Link>
-      ) }
+      )}
       <CartIcon />
-      {hidden ? null : <CartDropdown/>}
+      {hidden ? null : <CartDropdown />}
     </nav>
   </header>
 );
 
-const mapStateToProps = ({user:{currentUser}, cart: {hidden}}) => ({
+const mapStateToProps = ({ user: { currentUser }, cart: { hidden } }) => ({
   currentUser,
-  hidden
+  hidden,
 });
 
 export default connect(mapStateToProps)(Header);

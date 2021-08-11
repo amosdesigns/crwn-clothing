@@ -39,8 +39,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <main>
-        <Header />
+      <>
+      <Header />
+      <main> 
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={Shop} />
@@ -55,8 +56,10 @@ class App extends React.Component {
             }
           />
         </Switch>
-        <Footer />
+        
       </main>
+      <Footer />
+      </>
     );
   }
 }

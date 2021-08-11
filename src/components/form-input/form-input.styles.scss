@@ -24,6 +24,14 @@ $main-color: black;
     border-radius: 0;
     border-bottom: 1px solid $sub-color;
     margin: 25px 0;
+    
+    &:required{
+      border: 1px solid #f05252;
+    }
+    &:invalid{
+      border: 1px solid #f05252;
+      color: #f05252;
+    }
 
     &:focus {
       outline: none;
