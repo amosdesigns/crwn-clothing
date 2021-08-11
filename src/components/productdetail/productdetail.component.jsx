@@ -18,8 +18,11 @@ const ProductDetail = ({ item, addItem }) => (
         <h1 className="name">Alpine Blue </h1>
         <span className="price">$29.99</span>
         <span>Model: ALPB | Style: 29105</span>
-        <a href="#comments" >Customer Comments</a>
+        <a href="#comments">
+          Goto Customer Reviews <i class="fas fa-level-down-alt"></i>
+        </a>
       </section>
+      <h3 className="reviewsRatings">5 Stars Based on 6 Reviews</h3>
       <div className="product-information">
         <section className="btnGroup">
           <BtnNumber />

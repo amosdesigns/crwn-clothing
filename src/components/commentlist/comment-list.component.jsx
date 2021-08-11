@@ -5,7 +5,8 @@ import "./comment-list.styles.scss";
 function CommentList() {
   return (
     <div id="comments">
-      Comments
+      
+      Reviews
       <CommentItem />
       <CommentItem />
       <CommentItem />
