@@ -1,0 +1,101 @@
+.product-carousel{
+  display: none;
+  @media only screen and (min-width: 536px) {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  }
+
+  header {
+  display: flex;
+  justify-content: center;
+  }
+
+  .carousel-window{
+  display: block;
+  overflow: hidden;
+  width:75vw;
+  margin: 0 auto;
+  justify-content: center;
+  
+
+.carousel-draw{
+ animation: slider 120s ease-in-out 1.7s infinite alternate;
+  display: flex;
+  max-width:75vw;
+  gap: 10px;
+
+ .carousel-image{
+@media only screen and (min-width: 536px) {
+ 
+    }
+   }
+  }
+ }
+}
+@keyframes slider {
+  0% {
+    transform: translateX(0px);
+  }
+  5% {
+    transform: translateX(-125px);
+  }
+  10% {
+    transform: translateX(-250px);
+  }
+  15% {
+    transform: translateX(-375px);
+  }
+  20% {
+    transform: translateX(-500px);
+  }
+  25% {
+    transform: translateX(-625px);
+  }
+30% {
+  transform: translateX(-750px);
+}
+35% {
+  transform: translateX(-875px);
+}
+40% {
+  transform: translateX(-900px);
+}
+45% {
+  transform: translateX(-1025px);
+}
+50% {
+  transform: translateX(-1150px);
+}
+55% {
+  transform: translateX(-1275px);
+}
+60% {
+  transform: translateX(-1400px);
+}
+65% {
+  transform: translateX(-1525px);
+}
+70% {
+  transform: translateX(-1650px);
+}
+75% {
+  transform: translateX(-1775px);
+}
+80% {
+  transform: translateX(-1900px);
+}
+85% {
+  transform: translateX(-2025px);
+}
+90% {
+  transform: translateX(-2150px);
+}
+95% {
+  transform: translateX(-2275px);
+}
+100% {
+  transform: translateX(-2400px);
+}
+
+}

@@ -1,0 +1,38 @@
+.btn-number{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  justify-content: center;
+  overflow: visible;
+  height: 50px;
+  background: #fff;
+  padding: 0px;
+  max-width: 100%;
+  
+input {
+  width: 5em;
+  height: 100%;
+  text-align: center;
+  border: 0;
+  background: transparent;
+  color: #000;
+  font-size: 2em;
+} 
+div{
+  color: black;
+display: flex;
+width: 50px;
+height: 50px;
+font-size:50px;
+justify-content: center;
+
+&:hover{color: gray;}
+
+i.fas.fa-square-chevron-down, 
+i.fas.fa-square-chevron-up {
+  width: 80px;
+  height: 80px;
+  font-size:80px;
+}
+}
+}
