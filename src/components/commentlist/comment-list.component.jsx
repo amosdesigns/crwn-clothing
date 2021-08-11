@@ -4,8 +4,8 @@ import "./comment-list.styles.scss";
 
 function CommentList() {
   return (
-    <div>
-      CommentList
+    <div id="comments">
+      Comments
       <CommentItem />
       <CommentItem />
       <CommentItem />

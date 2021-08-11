@@ -18,12 +18,14 @@ const ProductDetail = ({ item, addItem }) => (
         <h1 className="name">Alpine Blue </h1>
         <span className="price">$29.99</span>
         <span>Model: ALPB | Style: 29105</span>
+        <a href="#comments" >Customer Comments</a>
       </section>
       <div className="product-information">
         <section className="btnGroup">
           <BtnNumber />
           <CustomButton onClick={() => addItem(item)}>Add to Cart</CustomButton>
         </section>
+
         <h2>Product Information</h2>
         <p>
           It is a long established fact that a reader will be distracted by the
