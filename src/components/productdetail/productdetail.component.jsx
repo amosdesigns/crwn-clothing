@@ -2,6 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import CustomButton from "../button/button.component";
 import { addItem } from "../../redux/cart/cart.actions";
+import { withRouter } from "react-router-dom";
+import { selectCartItems } from "../../redux/cart/cart.selectors";
 import BtnNumber from "../btnnumber/btnnumber.component";
 import "./productdetail.styles.scss";
 
