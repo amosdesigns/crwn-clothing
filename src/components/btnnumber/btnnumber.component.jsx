@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import "./btnnumber.styles.scss";
 
-const BtnNumber = ({ itemCount }) => {
-  const [count, setCount] = useState(itemCount);
+const BtnNumber = ({ qty }) => {
+  const [count, setCount] = useState(qty);
 
   return (
     <span className="btn-number">
