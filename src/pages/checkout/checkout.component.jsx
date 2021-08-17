@@ -9,6 +9,7 @@ import CheckoutItem from "../../components/checkout-item/checkout-item.component
 import "./checkout.styles.scss";
 
 const Checkout = ({ cartItems, total }) => {
+  total = total.toFixed(2);
   return (
     <div className="checkout-page">
       <header className="checkout-header">
