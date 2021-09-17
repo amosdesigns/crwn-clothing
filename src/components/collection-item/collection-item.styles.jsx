@@ -43,7 +43,7 @@ export const CollectionFooterContainer = styled.div`
   height: 10%;
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: var(--fs-400);
   margin-bottom: 15px;
 `;
 

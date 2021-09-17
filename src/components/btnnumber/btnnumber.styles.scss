@@ -16,14 +16,14 @@ input {
   border: 0;
   background: transparent;
   color: #000;
-  font-size: 2em;
+  font-size: var(--fs-400);
 } 
 div{
   color: black;
 display: flex;
 width: 50px;
 height: 50px;
-font-size:50px;
+font-size:var(--fs-xl);
 justify-content: center;
 
 &:hover{color: gray;}
@@ -32,7 +32,7 @@ i.fas.fa-square-chevron-down,
 i.fas.fa-square-chevron-up {
   width: 80px;
   height: 80px;
-  font-size:80px;
+  font-size:var(--fs-xl);
 }
 }
 }

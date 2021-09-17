@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CollectionPageContainer = styled.div`
   display: flex;
@@ -6,7 +6,7 @@ export const CollectionPageContainer = styled.div`
 `;
 
 export const CollectionTitle = styled.h2`
-  font-size: 38px;
+  font-size: var(--fs-xl);
   margin: 0 auto 30px;
 `;
 

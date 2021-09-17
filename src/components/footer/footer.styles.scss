@@ -2,7 +2,7 @@ footer{
   color: #999999;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  font-size: 13px;
+  font-size: var(--fs-400);
   justify-content: center;
   justify-items: center;
   align-items: center;

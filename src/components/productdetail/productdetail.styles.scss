@@ -51,7 +51,7 @@ background-position: center;
 background-size: cover;
 }
 .writtenInfo{
-font-size: 12px;
+font-size: var(--fs-400);
 }
 .btnGroup{
    @media only screen and (min-width: 510px) {

@@ -4,7 +4,7 @@
   min-height: 100px;
   border-bottom: 1px solid darkgrey;
   padding: 15px 0;
-  font-size: 20px;
+  font-size: var(--fs-400);
   align-items: center;
 
   .image-container {
@@ -25,7 +25,7 @@
   }
 
   .quantity {
-     width: 15%;
+    width: 15%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
